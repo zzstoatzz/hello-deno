@@ -1,0 +1,9 @@
+{
+  "tasks": {
+    "build": "deno run -A scripts/build.ts",
+    "dev": "deno run -A --watch main.ts"
+  },
+  "compilerOptions": {
+    "lib": ["dom", "dom.iterable", "dom.asynciterable", "deno.ns"]
+  }
+} 
